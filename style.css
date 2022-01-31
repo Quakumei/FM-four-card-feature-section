@@ -173,7 +173,7 @@ main {
     }
     
     .feature-card--karma {
-        grid-column: 3 /4;
+        grid-column: 3 / 4;
         grid-row: 2/4;
 
     }
