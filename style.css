@@ -54,16 +54,19 @@ main {
 }
 
 .page-heading__title {
+    color: var(--blue-900);
     margin: 0;
     font-weight:var(--weight-light);
     font-size: calc(var(--fs-base) * 1.6);
 }
 
 .page-heading__title b{ 
+    color: var(--blue-900);
     font-weight: var(--weight-bold);
 }
 
 .page-heading__description {
+    color: var(--blue-700);
     padding-top: 1.5rem;
     font-weight: var(--weight-light);
 }
@@ -99,6 +102,7 @@ main {
 }
 
 .feature-card__title {
+    color: var(--blue-900);
     margin: 0;
     font-weight: var(--weight-bold);
     font-size: calc(var(--fs-base)*1.4);
@@ -134,18 +138,18 @@ main {
     grid-auto-flow: dense;
 }
 
-@media (min-width: 750px) {
+@media only screen and (min-width: 750px) {
     .page-heading__title {
         font-size: calc(var(--fs-base) * 2);
     }
 
     .cards-container {
         display:grid;
-        min-width: calc(750px);
+        min-width: 750px;
     }
 }
 
-@media (min-width: 1200px) {
+@media only screen and  (min-width: 1200px) {
     .cards-container {
         display:grid;
         min-width: fit-content;
