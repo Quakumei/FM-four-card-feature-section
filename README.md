@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Github URL](https://github.com/Quakumei/FM-four-card-feature-section)
+- Live Site URL: [Live site URL](https://fm-four-card-feature-section-quakumei.vercel.app/)
 
 ## My process
 
